@@ -1,0 +1,123 @@
+#blog-page {
+	background-color:rgb(240, 251, 253);
+}
+
+.btn-nav-idioms {
+	padding: 3px 13px;
+	font-weight: 600;
+	border-radius: 12px;
+	font-size:12px;
+	color: gray;
+	border: 1px solid gray;
+	margin: 12px;
+}
+
+.btn-nav-login {
+	background-color: gray;
+	color:white;
+	padding: 3px 15px;
+	border-radius: 12px;
+	font-size:14px;
+	border: 1px solid gray;
+	margin: 12px 0px;
+}
+
+.navbar-default,
+.navbar-default .navbar-toggle {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar > li > a {
+	font-size: 21px;
+	padding: 2.7% 0%;
+	color: rgb(158, 157, 157); 
+	text-decoration: none;
+	position: relative;
+	display: block;
+	padding: 15px 5px;
+}
+
+.img-blog-perfil { 
+	width: 60px;
+}
+
+.box-img,
+.box-content {
+	display: inline-block;
+}
+
+.box-img {
+	top: -20px;
+  width: 13%;
+}
+
+.container .col-md-8 {
+h4 {
+	line-height: 1.5em;
+}
+
+}
+
+.style-ul-articulos {
+  padding: 14%;
+  border-right: 2px dashed #f0f0f0;
+  li {
+  	border-bottom: 2px solid rgb(220, 220, 220);
+  }
+}
+
+.box-articulos {
+  background-color: #F0F0F0;
+}
+
+.img-box-articulos {
+	width: 50px;
+	top: -20px;
+}
+
+/*Cellphone*/
+
+@media screen and (max-width:$screen-phone) {
+
+.box-articulos {
+	background-color: transparent;
+	font-size: 20px;
+  font-weight: 600;
+  padding: 0% 2%;
+}
+
+.p-phone-0 {
+	padding-right: 0px;
+}
+
+.img-box-articulos {
+	width: 80px;
+}
+
+nav .container .farolito-xs {
+  float: inherit;
+  padding-right: 0%;
+  display: inline-block;
+  img {
+  	width: 80px;
+  }
+}
+
+nav .container .btn-xs-blog {
+	float: right;
+}
+
+.btn-crear-xs-blog {
+	display: inline-block;
+	padding: 6px 8px !important;
+  font-size: 12px !important;
+  border-radius: 11px !important;
+  border: 1px solid white;
+  float: right;
+  font-weight: 600;
+}
+
+}
+
+/*End*/
